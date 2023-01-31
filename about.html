@@ -6,12 +6,85 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>John Lang,The Super Hero </title>
+
+    <style>
+          
+            
+      p{
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+          align-items: center;
+          font-size: medium;
+          font-style: italic;
+          font-weight: bolder;
+       }
+      
+       body{
+          padding: 1em;
+          }
+      header {
+        background-color: lightgray;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        padding: 1em;
+      }
+
+      
+      
+      h1 {
+        margin: 1em;
+        align-items: center;
+        padding: 1em;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+      
+      nav {
+        display: flex;
+        background-color: bisque;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         }
+     
+      ul > li {
+         display: inline-block;
+          margin: 1em;
+          font-size: medium;
+          
+   }
+  
+      nav a{
+      
+      margin-right: 2em;
+      text-decoration: none;
+      color: black;
+      padding: 1em;
+    }
+
+  
+      
+      .container {
+        max-width: 1000px;
+        margin: 1em ;
+        padding: 1em;
+      }
+      
+      img {
+        width: 300px;
+        height: 350px;
+        float: right;
+        margin-left: 1em;
+      }
+      
+      
+    </style>
     
     </head>
-</head>
+
 <body>
     <main>
-    <nav>
+    <nav id = "main-menu">
         <ul>
             <li>
                 <a href="./index.html">Home</a>
@@ -21,10 +94,14 @@
             </li>
         </ul>
     </nav>
-    <header>
-        <h1> John Lang, The Super Hero</h1>
-    </header>
+    
+
     <section>
+      <header>
+        <h1> John Lang, The Super Hero
+
+        </h1>
+    </header>
         <img src="JohnLang(1).jpg" alt="John">
         <img src="JohnLang(2).jpg" alt="John2">
         <p>
@@ -53,82 +130,7 @@
             Have you ever seen the missing tech? contact +10002020202
         </p>
 
-        <style>
-          
-            
-        p{
-            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-            align-items: center;
-            font-size: medium;
-            font-style: italic;
-            font-weight: bolder;
-         }
-        
-         body{
-            padding: 1em;
-            }
-        header {
-          background-color: lightgray;
-          display: flexbox;
-          justify-content: space-between;
-          text-align: center;
-          padding: 1em;
-        }
-
-        
-        
-        h1 {
-          margin: 1em;
-          align-items: center;
-          padding: auto;
-          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        }
-        
-        nav {
-          display: flex;
-          background-color: bisque;
-          height: 70px;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-           }
-       
-        ul > li {
-           display: inline-block;
-            margin: 1em;
-            font-size: medium;
-            
-     }
-    
-        nav a{
-        
-        margin-right: 2em;
-        text-decoration: none;
-        color: black;
-        padding: auto;
-      }
-
-    
-        
-        .container {
-          max-width: 1000px;
-          margin: 1em auto;
-          padding: 1em;
-        }
-        
-        img {
-          width: 300px;
-          height: 350px;
-          float: right;
-          margin-left: 1em;
-        }
-        
-        
-      </style>
-        
-    
-
-    </section>
+        </section>
     </main>
     
 </body>
